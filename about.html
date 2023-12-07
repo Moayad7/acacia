@@ -16,16 +16,16 @@
 </head>
 
 <body class="bg-gradient-to-r from-teal-100 via-teal-50 to-teal-100">
-<header class="mb-8">
+<header class="">
     <div class="px-8 lg:px-52 bg-teal-600 py-1 text-white space-x-8 flex">
                 
-                    <div class="flex items-center"><span class="pe-2 text-xs material-symbols-outlined">mail</span><a href="" class="hover:text-amber-400 duration-500 text-xs ">info@sa-acacia.com</a></div>
-                    <div class="flex items-center"><span class="pe-2 text-xs material-symbols-outlined">call</span><a href="" class="hover:text-amber-400 duration-500 text-xs ">00966 050 666 7454</a></div>
+                    <div class="flex items-center"><span class="pe-2 text-xs material-symbols-outlined">mail</span><a id="banner-mail" href="" class="hover:text-amber-400 duration-500 text-xs "><!-- api data --></a></div>
+                    <div class="flex items-center"><span class="pe-2 text-xs material-symbols-outlined">call</span><a id="banner-phone" href="" class="hover:text-amber-400 duration-500 text-xs "><!-- api data --></a></div>
                 </ul>
     </div>
     <div class=" w-full  top-0 left-0">
         <div class="w-full lg:flex items-center justify-center bg-transparent bg-teal-50 py-4 lg:px-10 px-7">
-            <div class=" font-bold text-2xl  flex items-center text-teal-400">
+            <div id="logo" class=" font-bold text-2xl  flex items-center text-teal-400">
                 <img class="w-40" src="./assets/logo/logo-color.svg" alt="">
             </div>
             <div id="navbar-btn" class="text-3xl absolute right-8 top-12 cursor-pointer lg:hidden ">
@@ -40,38 +40,34 @@
                         close
                     </span>
                 </div>
-                <li key="" class="border-b-4 border-transparent hover:border-amber-400 duration-500 lg:ms-8 text-lg lg:my-0 my-3"><a
-                        class="text-teal-600 hover:text-amber-400  duration-500" href="index.html">home</a></li>
-                <li key="" class="border-b-4 border-transparent hover:border-amber-400 duration-500 lg:ms-8 text-lg lg:my-0 my-3"><a
-                        class="text-teal-600 hover:text-amber-400 duration-500" href="about.html">About us</a></li>
-                <li key="" class="border-b-4 border-transparent hover:border-amber-400 duration-500 lg:ms-8 text-lg lg:my-0 my-3"><a
-                        class="text-teal-600 hover:text-amber-400 duration-500" href="services.html">Services</a></li>
-                <li key="" class="border-b-4 border-transparent hover:border-amber-400 duration-500 lg:ms-8 text-lg lg:my-0 my-3"><a
-                        class="text-teal-600 hover:text-amber-400 duration-500" href="products.html">Products</a></li>
-                <li key="" class="border-b-4 border-transparent hover:border-amber-400 duration-500 lg:ms-8 text-lg lg:my-0 my-3"><a
-                        class="text-teal-600 hover:text-amber-400 duration-500" href="workshop.html">Works</a></li>
-                <li key="" class="border-b-4 border-transparent hover:border-amber-400 duration-500 lg:ms-8 text-lg lg:my-0 my-3"><a
-                        class="text-teal-600 hover:text-amber-400 duration-500" href="contact.html">Contact us</a></li>
-                <button class="bg-amber-500 text-white py-2 px-6 lg:ms-8 hover:bg-amber-800 duration-500 ">
-                    عربي
+                <div id="navbar-menu" class="flex flex-col lg:flex-row lg:items-center">
+                <!-- api data -->
+                </div>
+                <div>
+                <!-- <i class="w-8"><img id="lang-img" src="" alt=""></i> -->
+                <button id="lang-btn" class="bg-amber-500 text-white py-2 px-6 lg:ms-8 hover:bg-amber-800 duration-500 ">
+                    <!-- api data --> 
                 </button>
+            </div>
             </ul>
         </div>
     </div>
 
-    <div class=" lg:pt-24 flex justify-center ">
+    <div class=" flex justify-center ">
         <div>
             <div class="bg-[url('./assets/logo/logo-background-04.svg')] bg-no-repeat px-8 lg:px-52 grid grid-cols-1 items-center justify-center h-full">
                 <div class="z-9999 py-10 lg:py-16  h-full space-y-8 text-center md:text-start">
-                    <h1 class="  text-center  text-2xl md:text-6xl text-amber-600 ">acacia <span class="text-teal-950">agricultural landscape
-                            works</span></h1>
-                    <p class="  text-center  text-md lg:text-justify md:text-xl lg:pe-6">Add sections for the latest technologies and instructions and solutions for
-                        balancing the supplied materials to take care of your land properly.</p> 
+                    <h1 id="hero-title" class="  text-center  text-2xl md:text-6xl text-amber-600 ">
+                        <!-- api data -->
+                    </h1>
+                    <p id="hero-text" class="  text-center  text-md lg:text-justify md:text-xl lg:pe-6">
+                        <!-- api data -->
+                    </p> 
                 </div>
 
-                <div class="my-16 lg:mt-0 px-4 relative flex justify-center">
-                    <div
-                        class="w-[250px] h-[250px] xl:w-[500px] xl:h-[500px] overflow-hidden rounded-full bg-[url('./assets/hreo-01.webp')] bg-cover bg-center z-10 hover:scale-110 hover:rotate-3 transition-all duration-500 ease-out ">
+                <div class="my-16  px-4 relative flex justify-center">
+                    <div id="home-img"
+                        class="w-[250px] h-[250px] xl:w-[500px] xl:h-[500px] overflow-hidden rounded-full bg-cover bg-center z-10 hover:scale-110 hover:rotate-3 transition-all duration-500 ease-out ">
                     </div>
                     <div class="w-[250px] h-[250px] xl:w-[500px] xl:h-[500px] overflow-hidden rounded-full bg-teal-800 absolute translate-x-8 translate-y-8 z-0">
                     </div>
@@ -103,21 +99,15 @@
                 </div>
                 <div class="text-white bg-teal-800 lg:bg-teal-500 lg:grid grid-cols-2 p-8 space-y-4 ">
                     <div>
-                        <h1 class="text-xl font-black">Visit:</h1>
-                        <ul class="py-2 text-xl">
-                            <li><a href="index.html" class="hover:text-amber-400 duration-500 text-sm ">Home</a></li>
-                            <li><a href="about.html" class="hover:text-amber-400 duration-500 text-sm ">About us</a></li>
-                            <li><a href="services.html" class="hover:text-amber-400 duration-500 text-sm ">Agricultural services</a></li>
-                            <li><a href="products.html" class="hover:text-amber-400 duration-500 text-sm ">Our Products</a></li>
-                            <li><a href="workshop.html" class="hover:text-amber-400 duration-500 text-sm ">Our Workshops</a></li>
-                            <li><a href="contact.html" class="hover:text-amber-400 duration-500 text-sm ">Contat us</a></li>
+                        <h1 id="links-title-footer" class="text-xl font-black"><!-- api data --></h1>
+                        <ul id="footer-list" class="py-2 text-xl">
+                            <!-- api data -->
                         </ul>
                     </div>
                     <div>
-                        <h1 class="text-xl font-black">Contact us:</h1>
-                        <ul class="py-2 space-y-2 text-xl">
-                            <li class="flex items-center"><span class="px-2 material-symbols-outlined">mail</span><a href="" class="hover:text-amber-400 duration-500 text-sm ">info@sa-acacia.com</a></li>
-                            <li class="flex items-center"><span class="px-2 material-symbols-outlined">call</span><a href="" class="hover:text-amber-400 duration-500 text-sm ">00966 050 666 7454</a></li>
+                        <h1 id="contact-title-footer" class="text-xl font-black"><!-- api data --></h1>
+                        <ul id="footer-contact" class="py-2 space-y-2 text-xl">
+                            <!-- api data -->
                         </ul>
                     </div>
                     
@@ -125,30 +115,24 @@
                 
             </div>
             <div class="bg-amber-600 py-1 px-8 lg:px-52">
-                <div class="text-white grid grid-cols-1 lg:grid-cols-2 justify-center items-center ">
-                    <div class="flex py-2 items-center justify-center lg:justify-start">
-                        <h1 class="text-xl  px-4">Follow us:</h1>
+                <div class="text-white grid grid-cols-1 justify-center items-center ">
+                    <div class="flex py-2 items-center justify-center">
+                        <h1 id="follow" class="text-xl  px-4">Follow us:</h1>
                         <ul class=" gap-2 flex">
-                            <li><a href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/facebook-01.svg" alt=""></a></li>
-                            <li><a href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/instagram-01.svg" alt=""></a></li>
-                            <li><a href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/twitter-01.svg" alt=""></a></li>
-                            <li><a href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/youtube-01.svg" alt=""></a></li>
-                            <li><a href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/" alt=""></a></li>
+                            <li><a id="facebook"  class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/facebook-01.svg" alt=""></a></li>
+                            <li><a id="instagram" href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/instagram-01.svg" alt=""></a></li>
+                            <li><a id="twitter" href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/twitter-01.svg" alt=""></a></li>
+                            <li><a id="youtube" href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/youtube-01.svg" alt=""></a></li>
+                            <li><a id="" href="" class="hover:text-amber-400 duration-500"><img class="w-5" src="./assets/social media/" alt=""></a></li>
                         </ul>
                     </div>
-                    <div>
-                        <div class="text-end flex flex-col lg:flex-row items-center justify-center lg:justify-end">
-                            <div class="flex">
-                            <span class="px-2 material-symbols-outlined">
-                                copyright
-                                </span> 
-                            <p>2023 all right is reserved for <a href="index.html" class="uppercase">acacia</a> </p>
-                        </div>
-                        <div class="flex">
-                            <p class="px-1">| powered by</p>
-                            <a class="px-1 uppercase" href="https://www.linkedin.com/in/ahmad-zakaria-hanifa-58094522a/" target="_blank">ahmad team</a>
-                        </div>
-                        </div>
+                    <div class="flex flex-col lg:flex-row items-center justify-center">
+                        <div id="footer-text" class="flex">
+                        <!-- api data -->
+                    </div>
+                    <div id="ahmad-team" class="flex items-center justify-center">
+                        <!-- api data -->
+                    </div>
                     </div>
                 </div>
             </div>
@@ -158,9 +142,11 @@
 
 
 
+
     <!-- js files -->
 
     <script src="./js/tailwind.js"></script>
+    <script src="./js/about.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

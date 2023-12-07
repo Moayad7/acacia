@@ -53,33 +53,30 @@
         </div>
     </div>
 
-</header>
-
-
-
-<!-- services -->
-
-<section class=" my-8  px-8 lg:px-52 bg-[url('./assets/circles-background-02.svg')] bg-no-repeat bg-right">
-    <div>
-        <div class="flex flex-col lg:flex-row justify-center items-center">
-            <h1 id="services-title" class="text-3xl border-b-4  border-amber-400"><!-- api data --></h1>
-            <p id="services-description" class="p-8 lg:px-32 text-center lg:text-justify"><!-- api data --></p>
-        </div>
-
+    <div class=" flex justify-center ">
         <div>
-            <div id="services-list" class="grid items-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-8">
+            <div class="bg-[url('./assets/logo/logo-background-04.svg')] bg-no-repeat px-8 lg:px-52 grid grid-cols-1 items-center justify-center h-full">
+                <div class="z-9999 py-10 lg:py-16  h-full space-y-8 text-center md:text-start">
+                    <h1 id="products-item-title" class="  text-center  text-2xl md:text-6xl text-amber-600 ">
+                        <!-- api data -->
+                    </h1>
+                    <p id="products-item-description" class="  text-center  text-md lg:text-justify md:text-xl lg:pe-6">
+                        <!-- api data -->
+                    </p> 
+                </div>
+
+                <div class="relative flex justify-center mb-16">
+                    <div id="products-item-photo" class="w-60 h-60 bg-cover rounded-full z-[1]"></div>
+                    <div class="w-60 h-60 bg-amber-400 bg-cover rounded-full absolute z-[0] translate-x-2 translate-y-2"></div>
+                    <div class="w-60 h-60 bg-teal-400 bg-cover rounded-full absolute z-[0] translate-x-2 translate-y-1"></div>
+                </div>
 
                 
-                <!-- api data -->
-
-
             </div>
         </div>
     </div>
-</section>
 
-
-
+</header>
 
 <!-- footer -->
 
@@ -135,10 +132,13 @@
     </div>
 </footer>
 
+
+
+
     <!-- js files -->
 
     <script src="./js/tailwind.js"></script>
-    <script src="./js/services.js"></script>
+    <script src="./js/productsItem.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

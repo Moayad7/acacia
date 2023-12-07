@@ -53,33 +53,34 @@
         </div>
     </div>
 
-</header>
-
-
-
-<!-- services -->
-
-<section class=" my-8  px-8 lg:px-52 bg-[url('./assets/circles-background-02.svg')] bg-no-repeat bg-right">
-    <div>
-        <div class="flex flex-col lg:flex-row justify-center items-center">
-            <h1 id="services-title" class="text-3xl border-b-4  border-amber-400"><!-- api data --></h1>
-            <p id="services-description" class="p-8 lg:px-32 text-center lg:text-justify"><!-- api data --></p>
-        </div>
-
+    <div class=" flex justify-center ">
         <div>
-            <div id="services-list" class="grid items-center grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-8">
+            <div class="bg-[url('./assets/logo/logo-background-04.svg')] bg-no-repeat px-8 lg:px-52 grid grid-cols-1 items-center justify-center h-full">
+                <div class="z-9999 py-10 lg:py-16  h-full space-y-8 text-center md:text-start">
+                    <h1 id="services-item-title" class="  text-center  text-2xl md:text-6xl text-amber-600 ">
+                        <!-- api data -->
+                    </h1>
+                    <p id="services-item-description" class="  text-center  text-md lg:text-justify md:text-xl lg:pe-6">
+                        <!-- api data -->
+                    </p> 
+                </div>
 
-                
-                <!-- api data -->
-
-
+                <div class="relative flex justify-center mb-16" >
+                    <div id="services-item-photo"
+                        class="w-[250px] h-[250px]  overflow-hidden rounded-full bg-cover bg-center z-10  transition-all duration-500 ease-out ">
+                    </div>
+                    <div class="w-[250px] h-[250px]  overflow-hidden rounded-full bg-teal-800 absolute translate-x-4 translate-y-4 z-0">
+                    </div>
+                    <div class="w-[250px] h-[250px]  overflow-hidden rounded-full bg-teal-400 absolute translate-x-[-1rem] translate-y-[-1rem] z-0">
+                    </div>
+                    <div class="w-[250px] h-[250px]  overflow-hidden rounded-full bg-amber-400 absolute translate-x-[-2rem] translate-y-[1rem] z-0">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
 
-
-
+</header>
 
 <!-- footer -->
 
@@ -135,10 +136,13 @@
     </div>
 </footer>
 
+
+
+
     <!-- js files -->
 
     <script src="./js/tailwind.js"></script>
-    <script src="./js/services.js"></script>
+    <script src="./js/servicesItem.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
