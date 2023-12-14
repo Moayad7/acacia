@@ -140,7 +140,7 @@ const navbar_ar = [
   async function fetchProductsData() {
     try {
       const response = await fetch(
-        `http://dash.sa-acacia.com/api/certificates?lang=${language}`
+        `https://dash.sa-acacia.com/api/certificates?lang=${language}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -204,7 +204,7 @@ const navbar_ar = [
   async function fetchContactData() {
     try {
       const response = await fetch(
-        `http://dash.sa-acacia.com/api/contactUs?lang=${language}`
+        `https://dash.sa-acacia.com/api/contactUs?lang=${language}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");

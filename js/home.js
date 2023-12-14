@@ -158,7 +158,7 @@ var home = {};
 async function fetchHomeData() {
   try {
     const response = await fetch(
-      `http://dash.sa-acacia.com/api/homePage?lang=${language}`
+      `https://dash.sa-acacia.com/api/homePage?lang=${language}`
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -218,7 +218,7 @@ var products = {};
 async function fetchProductsData() {
   try {
     const response = await fetch(
-      `http://dash.sa-acacia.com/api/certificates?lang=${language}`
+      `https://dash.sa-acacia.com/api/certificates?lang=${language}`
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -284,7 +284,7 @@ var services = {};
 async function fetchServicesData() {
   try {
     const response = await fetch(
-      `http://dash.sa-acacia.com/api/services?lang=${language}`
+      `https://dash.sa-acacia.com/api/services?lang=${language}`
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -355,7 +355,7 @@ var workshop = {};
 async function fetchWorkshopData() {
   try {
     const response = await fetch(
-      `http://dash.sa-acacia.com/api/clients?lang=${language}`
+      `https://dash.sa-acacia.com/api/clients?lang=${language}`
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -420,7 +420,7 @@ var contacts = {};
 async function fetchContactData() {
   try {
     const response = await fetch(
-      `http://dash.sa-acacia.com/api/contactUs?lang=${language}`
+      `https://dash.sa-acacia.com/api/contactUs?lang=${language}`
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");

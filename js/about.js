@@ -138,7 +138,7 @@ var home = {};
 async function fetchHomeData() {
   try {
     const response = await fetch(
-      `http://dash.sa-acacia.com/api/homePage?lang=${language}`
+      `https://dash.sa-acacia.com/api/homePage?lang=${language}`
     );
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -176,7 +176,7 @@ const hero = () => {
   async function fetchContactData() {
     try {
       const response = await fetch(
-        `http://dash.sa-acacia.com/api/contactUs?lang=${language}`
+        `https://dash.sa-acacia.com/api/contactUs?lang=${language}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
